@@ -119,12 +119,12 @@
         <artifactId>tomcat7-maven-plugin</artifactId> 
         <version>2.2</version> 
         <configuration> 
-        <server>tomcat-development-server</server> 
-        <url>http://144.38.111.111:8080/manager/text</url> 
+        <server>tomcatserver</server> 
+        <url>http://localhost:8000/manager/text</url> 
         <warFile>target\demo.war</warFile> 
         <path>/demo</path> 
         <username>admin</username>
-        <password>cloud@123</password>
+        <password>admin</password>
         </configuration> 
         </plugin> 
 
